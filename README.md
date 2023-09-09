@@ -1,4 +1,9 @@
 # yocto_build
+如果已经完整同步工程，使用该脚本可配置工程：
+1.source setup/scripts/build/setup.sh -m qemuarm64 -b ./ --
+
+
+备注：
 1.repo push
  you can Switching remote URLs from HTTPS to SSH
  a/
