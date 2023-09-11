@@ -87,5 +87,5 @@ done
 
 #. $METADIR/poky/oe-init-build-env $BUILDDIR >/dev/null
 . $TOPDIR/poky/oe-init-build-env $BUILDDIR
-#cp $TOPDIR/setup/configs/$MACHINE/* $BUILDDIR 
+cp $TOPDIR/setup/configs/$MACHINE/* $BUILDDIR/conf/ 
 
